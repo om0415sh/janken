@@ -28,5 +28,19 @@ public class Myhand {
 				System.out.println("0~1の数字で入力してください");
 			}
 		}
+		
+		switch(Main.myhand) {
+			case 0:
+				Main.printMyhand = "グー";
+				break;
+			case 1:
+				Main.printMyhand = "パー";
+				break;
+			case 2:
+				Main.printMyhand = "チョキ";
+				break;
+				
+		
+		}
 	}
 }
